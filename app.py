@@ -10,4 +10,4 @@ def anyfunc():
     return jsonify({'sum': num1+num2})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='13.233.131.202', port=80)
+    app.run(debug=True, host='0.0.0.0', port=80)
